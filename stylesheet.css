@@ -1,0 +1,55 @@
+* {
+  font-family: verdana;
+}
+
+label {
+    width: 20%;
+    display: inline-block;
+    text-align: right;
+    vertical-align: top;
+    padding-right: 10px;
+    padding-left: 40px;
+  }
+
+h2 {
+  padding-left: 1rem;
+  color: dimGrey;
+}
+
+h3 {
+  text-align: center;
+}
+
+textarea {
+  width: 20%;
+  display: inline-block;
+
+}
+button {
+    display: block;
+    background-color: lightblue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    margin-top: 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+  .intro-text {
+    padding-left: 1rem;
+  }
+
+  .container {
+    width: 40%;
+    margin: 1rem auto;
+    padding: 2rem 0;
+    border: solid lightblue 2px;
+    border-radius: 25px;
+  }
+
+div.result {
+  text-align: center;
+  font-size: 2rem;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Geometry helper</title>
+    <link href="stylesheet.css" rel="stylesheet">
+    <script src = "calculations.js"></script>
+  </head>
+
+  <body>
+
+<!-- CIRCLE -->
+    <div class="container" id ="circle-container">
+      <h2>Calculate the area of a circle</h2>
+      <p class="intro-text">
+        Enter the Radius value!
+      </p>
+
+      <label for="radius">Radius</label>
+      <textarea id="radius"></textarea>
+
+      <button id="calc-circle" onclick="calculate()">Calculate!</button>
+      <h3>Result:</h3>
+      <div id="circleArea" class="result"></div>
+    </div>
+
+<!-- RECTANGLE -->
+    <div class="container">
+      <h2>Calculate the area of a rectangle</h2>
+      <p class="intro-text">
+        Enter the lenght of both rectangle sides!
+      </p>
+
+      <label for="rect-length">Length</label>
+      <textarea id="rect-length"></textarea></br>
+
+      <label for="rect-width">Width</label>
+      <textarea id="rect-width"></textarea>
+
+      <button id="calc-rectangle" onclick="calculateRectangleArea(radius)">Calculate!</button>
+    </div>
+
+<!-- TRIANGLE -->
+    <div class="container">
+      <h2>Calculate the area of a triangle</h2>
+      <p class="intro-text">
+        Enter the lenght of base and height!
+      </p>
+
+      <label for="base">Base</label>
+      <textarea id="base"></textarea></br>
+
+      <label for="tri-height">Heigth</label>
+      <textarea id="tri-height"></textarea>
+
+      <button id="calc-triangle" onclick="calculateTriangleArea(radius)">Calculate!</button>
+    </div>
+
+
+  </body>
+</html>
